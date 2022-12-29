@@ -1,0 +1,14 @@
+{
+  "name": "@jujulego/boobrie",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Julien Capellari <julien.capellari@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jujulego/boobrie"
+  },
+  "engines": {
+    "node": "^16"
+  },
+  "packageManager": "yarn@3.3.1"
+}
