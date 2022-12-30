@@ -6,10 +6,15 @@ import path from 'node:path';
 const commonConfig: Configuration = {
   devtool: 'source-map',
   target: 'node',
-  entry: './src/main',
+  entry: {
+    index: './src/index'
+  },
   output: {
+    path: path.resolve(__dirname, 'dist'),
+    library: {
+      type: 'commonjs2'
+    },
     clean: true,
-    path: path.resolve(__dirname, 'dist')
   },
   optimization: {
     runtimeChunk: 'single',
@@ -35,6 +40,7 @@ const commonConfig: Configuration = {
     extensions: ['.js', '.json', '.jsx', '.ts', '.tsx'],
   },
   externals: [
+    '@jujulego/jill',
     'react-devtools-core',
     'ws', // used only by ink for devtools
   ],
