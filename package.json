@@ -46,7 +46,7 @@
     "ink": "3.2.0",
     "ink-big-text": "1.2.0",
     "ink-gradient": "2.0.0",
-    "react": "17.0.2",
+    "react": "18.2.0",
     "shx": "0.3.4",
     "swc-loader": "0.2.3",
     "ts-node": "10.9.1",
