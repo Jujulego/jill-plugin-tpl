@@ -34,7 +34,7 @@
     "@types/ink-big-text": "1.2.1",
     "@types/ink-gradient": "2.0.1",
     "@types/node": "16.18.12",
-    "@types/react": "17.0.52",
+    "@types/react": "17.0.53",
     "@types/webpack-bundle-analyzer": "4.6.0",
     "@types/yargs": "17.0.18",
     "@typescript-eslint/eslint-plugin": "5.47.1",
