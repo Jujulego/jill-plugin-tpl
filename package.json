@@ -36,7 +36,7 @@
     "@types/node": "16.18.21",
     "@types/react": "17.0.54",
     "@types/webpack-bundle-analyzer": "4.6.0",
-    "@types/yargs": "17.0.23",
+    "@types/yargs": "17.0.24",
     "@typescript-eslint/eslint-plugin": "5.57.0",
     "@typescript-eslint/parser": "5.57.0",
     "eslint": "8.36.0",
