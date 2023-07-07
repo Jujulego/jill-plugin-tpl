@@ -201,12 +201,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jujulego/jill@npm:2.2.1":
-  version: 2.2.1
-  resolution: "@jujulego/jill@npm:2.2.1"
+"@jujulego/jill@npm:2.2.2":
+  version: 2.2.2
+  resolution: "@jujulego/jill@npm:2.2.2"
   bin:
     jill: ./bin/jill.js
-  checksum: 6182ba57c19e513dd9c6529677e7880dcda090253c055f9509b45215fea42eac30e9984b8129d78bb7800504be747779c5d292dcd15e691ff32d64ea91565ddd
+  checksum: 7c0922a61985ba6c6a39de5902f1d6a638cf87d8072dbd989163de230d712be1c01f247a51b83708bb162747cb4e82d67ccdaec6efcc64698daf366f4b95bbcb
   languageName: node
   linkType: hard
 
@@ -2783,7 +2783,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jill-plugin@workspace:."
   dependencies:
-    "@jujulego/jill": 2.2.1
+    "@jujulego/jill": 2.2.2
     "@swc/core": 1.3.68
     "@types/ink-big-text": 1.2.1
     "@types/ink-gradient": 2.0.1
