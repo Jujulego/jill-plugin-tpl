@@ -31,7 +31,7 @@
   "devDependencies": {
     "@jujulego/jill": "2.3.3",
     "@swc/core": "1.3.96",
-    "@types/ink-big-text": "1.2.3",
+    "@types/ink-big-text": "1.2.4",
     "@types/ink-gradient": "2.0.3",
     "@types/node": "16.18.60",
     "@types/react": "17.0.69",
