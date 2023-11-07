@@ -579,12 +579,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ink-gradient@npm:2.0.3":
-  version: 2.0.3
-  resolution: "@types/ink-gradient@npm:2.0.3"
+"@types/ink-gradient@npm:2.0.4":
+  version: 2.0.4
+  resolution: "@types/ink-gradient@npm:2.0.4"
   dependencies:
     "@types/react": "*"
-  checksum: c932bb8e5ef7bbfad34bf161f3408713d7ea2f2b2d2dcc650b5e1edd2509ecfdefa045c76a6283e8ead1fe95192af1d9ed006783b90d6630a3878941e8240995
+  checksum: d2f6f79fc4ddd71b9c469fb1107107af5a869ab15b0610cdeb390a417c33e55790c29bf96fc9bbb17fa787df7d737bc1f4403b40efed11f23e3ae4c710e78013
   languageName: node
   linkType: hard
 
@@ -3327,7 +3327,7 @@ __metadata:
     "@jujulego/jill": 2.3.3
     "@swc/core": 1.3.96
     "@types/ink-big-text": 1.2.4
-    "@types/ink-gradient": 2.0.3
+    "@types/ink-gradient": 2.0.4
     "@types/node": 16.18.60
     "@types/react": 17.0.69
     "@types/webpack-bundle-analyzer": 4.6.2
