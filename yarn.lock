@@ -570,12 +570,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ink-big-text@npm:1.2.3":
-  version: 1.2.3
-  resolution: "@types/ink-big-text@npm:1.2.3"
+"@types/ink-big-text@npm:1.2.4":
+  version: 1.2.4
+  resolution: "@types/ink-big-text@npm:1.2.4"
   dependencies:
     "@types/react": "*"
-  checksum: dae044a3ab982785f240f6418fb20a0c381b2e2b897f76491be239b32e6eb725b02cb6be77fb61ee81d12a5b16f267a1eece7480b8f8b78ff71b9249b5495297
+  checksum: f3adb70b988112abbaae3f055449d5c47a447cdc7d1c7495f635524e9373c3bdcd94dbd4eff6a75c4e0970c0608d8913e5b19f4e02440ab9524cb7f51a0d1583
   languageName: node
   linkType: hard
 
@@ -3326,7 +3326,7 @@ __metadata:
   dependencies:
     "@jujulego/jill": 2.3.3
     "@swc/core": 1.3.96
-    "@types/ink-big-text": 1.2.3
+    "@types/ink-big-text": 1.2.4
     "@types/ink-gradient": 2.0.3
     "@types/node": 16.18.60
     "@types/react": 17.0.69
