@@ -43,7 +43,7 @@
     "eslint-plugin-jest": "27.6.0",
     "eslint-plugin-workspaces": "0.10.0",
     "fork-ts-checker-webpack-plugin": "7.3.0",
-    "ink": "3.2.0",
+    "ink": "4.4.1",
     "ink-big-text": "1.2.0",
     "ink-gradient": "2.0.0",
     "react": "17.0.2",
