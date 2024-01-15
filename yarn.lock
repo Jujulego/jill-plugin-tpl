@@ -697,14 +697,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.74":
-  version: 17.0.74
-  resolution: "@types/react@npm:17.0.74"
+"@types/react@npm:17.0.75":
+  version: 17.0.75
+  resolution: "@types/react@npm:17.0.75"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 0234cee33281607db663a9d878e799458d9ab7e31f818528c75f0d0047175fb06db0672b0d2b93977ff066c07636a9a09b121178a55cbb4a4fe82ff61dae7474
+  checksum: aa503d1643049043fa491966cfc23996a56fb69c2018162ac97fb9ed89c9f26b906afd54ba2a81539f0e6c3487b4fa212d24c881a3efbfb8208a15cd45779e0a
   languageName: node
   linkType: hard
 
@@ -3385,7 +3385,7 @@ __metadata:
     "@types/ink-big-text": 1.2.4
     "@types/ink-gradient": 2.0.4
     "@types/node": 16.18.71
-    "@types/react": 17.0.74
+    "@types/react": 17.0.75
     "@types/webpack-bundle-analyzer": 4.6.3
     "@types/yargs": 17.0.32
     "@typescript-eslint/eslint-plugin": 5.62.0
