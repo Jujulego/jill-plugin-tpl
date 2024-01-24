@@ -1715,15 +1715,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cfonts@npm:^2.8.6":
-  version: 2.10.1
-  resolution: "cfonts@npm:2.10.1"
+"cfonts@npm:^3.1.1":
+  version: 3.2.0
+  resolution: "cfonts@npm:3.2.0"
   dependencies:
-    chalk: ^4
+    supports-color: ^8
     window-size: ^1.1.1
   bin:
     cfonts: bin/index.js
-  checksum: 2250d0878609c5cd39eced4212b708257a515f17fed83943f01423f6e11c091b77e30d56254b356f74bbb0e3f7d5f6782088d6e7e9985f3c9d8ec4bb34a15ad2
+  checksum: 08c412fce235e210925e44f3293fe44017acbb067b56cf60a1453894fc116374d1cedd1373d6648f688f01548a8cccd340dcd646118f67a3b90d2e54e0fe33a3
   languageName: node
   linkType: hard
 
@@ -1747,7 +1747,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4, chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.2":
+"chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.2":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -3051,16 +3051,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ink-big-text@npm:1.2.0":
-  version: 1.2.0
-  resolution: "ink-big-text@npm:1.2.0"
+"ink-big-text@npm:2.0.0":
+  version: 2.0.0
+  resolution: "ink-big-text@npm:2.0.0"
   dependencies:
-    cfonts: ^2.8.6
-    prop-types: ^15.7.2
+    cfonts: ^3.1.1
+    prop-types: ^15.8.1
   peerDependencies:
-    ink: ">=2.0.0"
-    react: ">=16.8.0"
-  checksum: b65481453cc13f726bdecf6378da30d55abb676e5eea5f6f38059d3cf7fa7e474c35ff10b760deecded246e9aabb68d22154c0e760860e2d05ca2d2ae60e5052
+    ink: ">=4"
+    react: ">=18"
+  checksum: e923e31751c87ed044435c00b163c1fae4b79edc394b59c03c291e93ec81d28be11113d6f985f78b1b91dde36c1e6945f63404409410ecff36533b3472ba4c0b
   languageName: node
   linkType: hard
 
@@ -3454,7 +3454,7 @@ __metadata:
     eslint-plugin-workspaces: 0.10.0
     fork-ts-checker-webpack-plugin: 7.3.0
     ink: 3.2.0
-    ink-big-text: 1.2.0
+    ink-big-text: 2.0.0
     ink-gradient: 2.0.0
     react: 17.0.2
     shx: 0.3.4
@@ -4280,7 +4280,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.7.2":
+"prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -4937,7 +4937,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supports-color@npm:^8.0.0":
+"supports-color@npm:^8, supports-color@npm:^8.0.0":
   version: 8.1.1
   resolution: "supports-color@npm:8.1.1"
   dependencies:
