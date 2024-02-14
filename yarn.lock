@@ -280,16 +280,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jujulego/event-tree@npm:^4.1.0":
-  version: 4.1.0
-  resolution: "@jujulego/event-tree@npm:4.1.0"
-  dependenciesMeta:
-    vitest@0.34.4:
-      unplugged: true
-  checksum: fca03a9d3f413fc407afd0e312a17b258f35d515fbf62a862c894f380148c13746ed2286c9ca0a597111b00809a8799ad0c646159d64f1680efc31726f15e033
-  languageName: node
-  linkType: hard
-
 "@jujulego/event-tree@npm:^4.1.1, @jujulego/event-tree@npm:^4.2.0, @jujulego/event-tree@npm:^4.3.0":
   version: 4.3.0
   resolution: "@jujulego/event-tree@npm:4.3.0"
@@ -300,16 +290,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jujulego/jill@npm:2.5.0":
-  version: 2.5.0
-  resolution: "@jujulego/jill@npm:2.5.0"
+"@jujulego/jill@npm:2.5.1":
+  version: 2.5.1
+  resolution: "@jujulego/jill@npm:2.5.1"
   dependencies:
     "@jujulego/aegis": ^2.1.0
     "@jujulego/event-tree": ^4.3.0
     "@jujulego/logger": ^0.2.4
     "@jujulego/quick-tag": ^0.3.3
     "@jujulego/tasks": ^2.2.0
-    "@jujulego/utils": ^2.0.2
+    "@jujulego/utils": ^3.0.0
     "@swc/helpers": ^0.5.3
     ajv: ^8.12.0
     chalk: ^5.3.0
@@ -324,7 +314,7 @@ __metadata:
     moo: ^0.5.2
     normalize-package-data: ^6.0.0
     path-scurry: ^1.10.1
-    pretty-ms: ^8.0.0
+    pretty-ms: ^9.0.0
     react: ^18.2.0
     reflect-metadata: ^0.2.0
     semver: ^7.5.4
@@ -332,7 +322,7 @@ __metadata:
     yargs: ^17.7.2
   bin:
     jill: ./bin/jill.js
-  checksum: 6b2a3267ac6780296e085080e4bca8bd8f70aeefe51d194042e487e107024892875f133c79e3403109d07726c0003a8bb7c7211885cc18115b6b3cf0d240b2ee
+  checksum: 6f5c25ff25458f34526c365ef9ef6350e753e978d76c69b5e1ccecf59c15a88a0a566194ffca9d4347198fbb96d9ee03cda5485a60b1fd2a5b315644639b02bc
   languageName: node
   linkType: hard
 
@@ -379,12 +369,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jujulego/utils@npm:^2.0.2":
-  version: 2.1.1
-  resolution: "@jujulego/utils@npm:2.1.1"
+"@jujulego/utils@npm:^3.0.0":
+  version: 3.0.4
+  resolution: "@jujulego/utils@npm:3.0.4"
   dependencies:
-    "@jujulego/event-tree": ^4.1.0
-  checksum: 22bb6295c21dcd7b3f370b1adc1fc507fd22a4a9321e2003fa1a893556b4c6f2052c3df708165ba7b283eae6dc2164a9cf1508d60b90c2ee5098f8e8bb03d78c
+    "@swc/helpers": ^0.5.3
+    kyrielle: ^0.6.0
+  checksum: 476703d8987de4d1e639e20e3144504c76e8ca11ebcf86a5538020bf33d097dfda23c0c6b656b87e5b3795426bfcb23646950b93d593a225b81677ddf01d76ee
   languageName: node
   linkType: hard
 
@@ -3439,7 +3430,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jill-plugin@workspace:."
   dependencies:
-    "@jujulego/jill": 2.5.0
+    "@jujulego/jill": 2.5.1
     "@swc/core": 1.4.1
     "@types/ink-big-text": 1.2.4
     "@types/ink-gradient": 2.0.4
@@ -3549,6 +3540,18 @@ __metadata:
   version: 6.0.3
   resolution: "kind-of@npm:6.0.3"
   checksum: 3ab01e7b1d440b22fe4c31f23d8d38b4d9b91d9f291df683476576493d5dfd2e03848a8b05813dd0c3f0e835bc63f433007ddeceb71f05cb25c45ae1b19c6d3b
+  languageName: node
+  linkType: hard
+
+"kyrielle@npm:^0.6.0":
+  version: 0.6.0
+  resolution: "kyrielle@npm:0.6.0"
+  dependencies:
+    immer: ^10.0.3
+  dependenciesMeta:
+    vitest@0.34.6:
+      unplugged: true
+  checksum: a124f2a4218a4dccd2209b41a1e72da524fa4c446801921f24620187758b0862205904a81b0105d0c563417f33310cd6271f8f037ffb0105b68cdedaa4ad23db
   languageName: node
   linkType: hard
 
@@ -4140,10 +4143,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse-ms@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "parse-ms@npm:3.0.0"
-  checksum: fc602bba093835562321a67a9d6c8c9687ca4f26a09459a77e07ebd7efddd1a5766725ec60eb0c83a2abe67f7a23808f7deb1c1226727776eaf7f9607ae09db2
+"parse-ms@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "parse-ms@npm:4.0.0"
+  checksum: 673c801d9f957ff79962d71ed5a24850163f4181a90dd30c4e3666b3a804f53b77f1f0556792e8b2adbb5d58757907d1aa51d7d7dc75997c2a56d72937cbc8b7
   languageName: node
   linkType: hard
 
@@ -4254,12 +4257,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pretty-ms@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "pretty-ms@npm:8.0.0"
+"pretty-ms@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "pretty-ms@npm:9.0.0"
   dependencies:
-    parse-ms: ^3.0.0
-  checksum: b7d2a8182887af0e5ab93f9df331f10db9b8eda86855e2de115eb01a6c501bde5631a8813b1b0abdd7d045e79b08ae875369a8fd279a3dacd6d9e572bdd3bfa6
+    parse-ms: ^4.0.0
+  checksum: 072b17547e09cb232e8e4c7be0281e256b6d8acd18dfb2fdd715d50330d1689fdaa877f53cf90c62ed419ef842f0f5fb94a2cd8ed1aa6d7608ad48834219435d
   languageName: node
   linkType: hard
 
