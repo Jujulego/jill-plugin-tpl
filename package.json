@@ -29,7 +29,7 @@
     "@jujulego/jill": "^2.1.0-alpha.6"
   },
   "devDependencies": {
-    "@jujulego/jill": "2.5.0",
+    "@jujulego/jill": "2.5.1",
     "@swc/core": "1.4.1",
     "@types/ink-big-text": "1.2.4",
     "@types/ink-gradient": "2.0.4",
