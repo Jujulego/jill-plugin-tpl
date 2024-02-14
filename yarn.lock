@@ -290,9 +290,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jujulego/jill@npm:2.5.1":
-  version: 2.5.1
-  resolution: "@jujulego/jill@npm:2.5.1"
+"@jujulego/jill@npm:2.5.2":
+  version: 2.5.2
+  resolution: "@jujulego/jill@npm:2.5.2"
   dependencies:
     "@jujulego/aegis": ^2.1.0
     "@jujulego/event-tree": ^4.3.0
@@ -322,7 +322,7 @@ __metadata:
     yargs: ^17.7.2
   bin:
     jill: ./bin/jill.js
-  checksum: 6f5c25ff25458f34526c365ef9ef6350e753e978d76c69b5e1ccecf59c15a88a0a566194ffca9d4347198fbb96d9ee03cda5485a60b1fd2a5b315644639b02bc
+  checksum: 877acd7d58efcfaee8e0de7a9adfa1b24aa5c8834a5fa561d46331d8c5eb8504ecdbff030393efd343b8f097ec6e44595c42b2970553397c17f15adb3df7ff45
   languageName: node
   linkType: hard
 
@@ -3430,7 +3430,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "jill-plugin@workspace:."
   dependencies:
-    "@jujulego/jill": 2.5.1
+    "@jujulego/jill": 2.5.2
     "@swc/core": 1.4.1
     "@types/ink-big-text": 1.2.4
     "@types/ink-gradient": 2.0.4
