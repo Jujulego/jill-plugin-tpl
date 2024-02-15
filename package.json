@@ -33,7 +33,7 @@
     "@swc/core": "1.4.1",
     "@types/ink-big-text": "1.2.4",
     "@types/ink-gradient": "2.0.4",
-    "@types/node": "16.18.80",
+    "@types/node": "16.18.81",
     "@types/react": "17.0.75",
     "@types/webpack-bundle-analyzer": "4.7.0",
     "@types/yargs": "17.0.32",
