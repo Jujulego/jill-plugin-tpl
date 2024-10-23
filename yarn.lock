@@ -687,10 +687,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.18.82":
-  version: 16.18.82
-  resolution: "@types/node@npm:16.18.82"
-  checksum: ace573877c3fe2fad4004a85b1ec72812eef43718a89cea92370777505954dfa59f44cf65db90217f977f2207e4c5de399eb81ab0006e3f7ff57388f585b4fb1
+"@types/node@npm:20.17.0":
+  version: 20.17.0
+  resolution: "@types/node@npm:20.17.0"
+  dependencies:
+    undici-types: ~6.19.2
+  checksum: 01234eb8a5ba7e3e4324f74c6b7354d8f37fc8eb29eddaf595bcf172bdfb32184be0a5721ee54bc8440562a4037f322eb967550e3b0b6402d0e14fcb7eb6d98b
   languageName: node
   linkType: hard
 
@@ -3434,7 +3436,7 @@ __metadata:
     "@swc/core": 1.4.2
     "@types/ink-big-text": 1.2.4
     "@types/ink-gradient": 2.0.4
-    "@types/node": 16.18.82
+    "@types/node": 20.17.0
     "@types/react": 17.0.75
     "@types/webpack-bundle-analyzer": 4.7.0
     "@types/yargs": 17.0.32
@@ -5241,6 +5243,13 @@ __metadata:
   version: 1.1.2
   resolution: "ufo@npm:1.1.2"
   checksum: 83c940a6a23b6d4fc0cd116265bb5dcf88ab34a408ad9196e413270ca607a4781c09b547dc518f43caee128a096f20fe80b5a0e62b4bcc0a868619896106d048
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.19.2":
+  version: 6.19.8
+  resolution: "undici-types@npm:6.19.8"
+  checksum: de51f1b447d22571cf155dfe14ff6d12c5bdaec237c765085b439c38ca8518fc360e88c70f99469162bf2e14188a7b0bcb06e1ed2dc031042b984b0bb9544017
   languageName: node
   linkType: hard
 
