@@ -9,7 +9,7 @@
     "url": "https://github.com/Jujulego/jill-plugin"
   },
   "engines": {
-    "node": "^16"
+    "node": "^20.0.0"
   },
   "files": [
     "bin",
@@ -33,7 +33,7 @@
     "@swc/core": "1.4.2",
     "@types/ink-big-text": "1.2.4",
     "@types/ink-gradient": "2.0.4",
-    "@types/node": "16.18.82",
+    "@types/node": "20.17.0",
     "@types/react": "17.0.75",
     "@types/webpack-bundle-analyzer": "4.7.0",
     "@types/yargs": "17.0.32",
