@@ -2330,12 +2330,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-workspaces@npm:0.10.0":
-  version: 0.10.0
-  resolution: "eslint-plugin-workspaces@npm:0.10.0"
+"eslint-plugin-workspaces@npm:0.12.1":
+  version: 0.12.1
+  resolution: "eslint-plugin-workspaces@npm:0.12.1"
   dependencies:
-    find-workspaces: ^0.3.0
-  checksum: 9e4d1aea7c903614d89271a97212a5a5a302939b56f746ebf6d021820804b2e15c348902946ada4bddfaa8446dcce07b9dc1328d93f080fa0b0b8de9b794eea7
+    find-workspaces: ^0.3.1
+  peerDependencies:
+    eslint: ">=8.40.0"
+  checksum: d63328623a6499d4c68eed924f74da2e28980f3e3489739764a2434abe566242ba7742acd7da9dc44a0ce4787754eca46aecca7fd91d3159c16f96f816ddec96
   languageName: node
   linkType: hard
 
@@ -2615,14 +2617,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-workspaces@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "find-workspaces@npm:0.3.0"
+"find-workspaces@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "find-workspaces@npm:0.3.1"
   dependencies:
     fast-glob: ^3.3.2
     pkg-types: ^1.0.3
     yaml: ^2.3.4
-  checksum: 736ec5aa16aaca2f293e20f3748753b71279e588dbdb0727362158ad2d13992edb35ba2188c4c44cc7f3de673b961e8b58dfe1b034bd5436018e2b6b98e389a7
+  checksum: bd5cfd49fe355ef7f362bcda2469732d472505f24edf55e415d2c451d3c108b4cb1828851881e23cb33347c628762b1e11bf1cff936e08b6aeb83537a310e991
   languageName: node
   linkType: hard
 
@@ -3461,7 +3463,7 @@ __metadata:
     "@typescript-eslint/parser": 5.62.0
     eslint: 8.57.1
     eslint-plugin-jest: 27.9.0
-    eslint-plugin-workspaces: 0.10.0
+    eslint-plugin-workspaces: 0.12.1
     fork-ts-checker-webpack-plugin: 7.3.0
     ink: 3.2.0
     ink-big-text: 1.2.0
