@@ -26,10 +26,10 @@
     "stats": "webpack --config webpack.stats.ts"
   },
   "peerDependencies": {
-    "@jujulego/jill": "^2.1.0-alpha.6"
+    "@jujulego/jill": "^2.1.0-alpha.6 || ^3.0.0"
   },
   "devDependencies": {
-    "@jujulego/jill": "2.5.2",
+    "@jujulego/jill": "3.1.0",
     "@swc/core": "1.16.18",
     "@types/ink-big-text": "1.2.4",
     "@types/ink-gradient": "2.0.4",
